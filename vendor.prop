@@ -103,4 +103,4 @@ ro.telephony.iwlan_operation_mode=legacy
 
 # SoC
 ro.soc.manufacturer=Qualcomm
-ro.soc.model=MSM8953
+ro.soc.model=SDM632

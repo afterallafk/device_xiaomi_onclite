@@ -127,7 +127,8 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
 
 PRODUCT_PACKAGES += \
-    GoogleCamera
+    GoogleCamera \
+    GcamGoMod
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \

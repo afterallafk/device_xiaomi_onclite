@@ -18,7 +18,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
 
-# PixelExtended Official Stuff
+# ProjectYapp Official Stuff
+YAPP_BUILD_TYPE := OFFICIAL
+YAPP_MAINTAINER := Aditya Singh
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true

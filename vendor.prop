@@ -177,5 +177,8 @@ persist.vendor.vt.supported=1
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SDM632
 
+# SPU
+vendor.gatekeeper.disable_spu=true
+
 # Zygote
 zygote.critical_window.minute=10

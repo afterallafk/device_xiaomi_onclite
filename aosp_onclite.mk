@@ -31,9 +31,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "google/raven/raven:13/TP1A.221005.002/9012097:user/release-keys"
+BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ3A.230805.001.A2/10385117:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221005.002 9012097 release-keys"
+    PRIVATE_BUILD_DESC="cheetah-user 13 TQ3A.230805.001.A2 10385117 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

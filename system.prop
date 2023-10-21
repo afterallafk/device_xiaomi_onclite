@@ -114,6 +114,7 @@ rild.libargs=-d /dev/smd0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
 persist.radio.add_power_save=1
+persist.sys.radio.force_lte_ca=true
 
 # set cutoff voltage to 3400mV
 ro.cutoff_voltage_mv=3400

@@ -156,7 +156,8 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libstdc++ \
     libstdc++_vendor \
-    vendor.qti.hardware.camera.device@1.0
+    vendor.qti.hardware.camera.device@1.0 \
+    libgui_shim
 
 PRODUCT_PACKAGES += \
     GcamGoMod

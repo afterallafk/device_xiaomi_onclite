@@ -70,6 +70,9 @@ function blob_fixup() {
     vendor/bin/pm-service|/vendor/bin/pm-service)
 	"${PATCHELF}" --add-needed "libutils-v33.so" "${2}"
         ;;
+    vendor/bin/hw/vendor.qti.hardware.display.composer-service|/vendor/bin/hw/vendor.qti.hardware.display.composer-service)
+        "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
+        ;;
     esac
 }
 
